@@ -15,7 +15,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-FROM ghcr.io/fullsend-ai/fullsend-code:4665685 # 0.42.0
+FROM ghcr.io/fullsend-ai/fullsend-code:0.42.0
 
 USER root
 
