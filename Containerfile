@@ -24,4 +24,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
     && apt-get install -y nodejs \
     && npm install -g pnpm
 
+ARG CLAUDE_CODE_VERSION=2.1.330
+RUN npm install -g @anthropic-ai/claude-code@${CLAUDE_CODE_VERSION}
+
 USER sandbox
